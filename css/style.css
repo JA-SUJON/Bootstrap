@@ -100,3 +100,34 @@ Header Section
     cursor: pointer;
     font-weight: bold;
 }
+
+
+
+/*
+Welcome Area Section
+*/
+.welcome_area{
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+    text-align: center;
+}
+.welcome_area .single_welcome{
+    background: #fff;
+    border: medium none;
+    padding: 50px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.welcome_area .single_welcome:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+}
+.welcome_area .single_welcome h2{
+    font-size: 1rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+.welcome_area .single_welcome p{font-size: 1rem;}
