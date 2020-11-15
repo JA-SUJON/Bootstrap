@@ -1,10 +1,17 @@
 /*
 Common Css
 */
-*{padding: 0; margin: 0; box-sizing: border-box;}
+*{padding: 0; margin: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif;}
 a{text-decoration: none;}
 a:hover{text-decoration: none;}
 li{list-style: none;}
+
+p{
+    font-size: 1.3rem;
+    line-height: 1.6;
+    font-weight:700;
+    color: #696060;
+}
 
 
 /*
@@ -61,4 +68,35 @@ Header Section
     /* for microsoft & chrome & mozila */
     -ms-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
+}
+
+.center_div p{
+    font-size: 1.3rem;
+    padding: 10px 0 20px 0;
+    color: #fff;
+    font-weight: bolder;
+
+}
+
+.header_buttons a{
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.header_buttons a:hover{
+    color: #50d1c0;
+    background: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transition: 0.5s;
+    cursor: pointer;
+    font-weight: bold;
 }
