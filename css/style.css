@@ -12,6 +12,9 @@ p{
     font-weight:700;
     color: #696060;
 }
+i{
+    color: #2fccd0;
+}
 
 
 /*
@@ -131,3 +134,58 @@ Welcome Area Section
     word-spacing: 4px;
 }
 .welcome_area .single_welcome p{font-size: 1rem; text-align: justify;}
+
+
+/*
+Offer Section 
+*/
+.offer_area{
+    background: #f7f7f9;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+.offer_area .offer_title{
+    margin-bottom: 50px;
+}
+.offer_title h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.offer_title p{}
+
+.offer_left_section{width: 90%;}
+.offer_left_section h1{
+    color: #2e2e2e;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.offer_right_site{}
+.offer_right_site .offer_right_text h2{
+    font-size: 1.2rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+
+.offer_right_site .offer_right_text p{
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 500;
+    color: #000;
+}
+.offer_right_site .offer_right_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2fccd0;
+}
+
+.progress{
+    height: 0.6rem !important;
+    margin-bottom: 25px !important;
+    color: #606060;
+}
