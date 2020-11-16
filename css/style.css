@@ -278,3 +278,84 @@ Pricing Section
     transform: translateY(-20px);
     /* box-shadow: 0 0 20px 0 rgba(0,0,0,0.3); */
 }
+
+
+
+
+/*
+Client FeedBack Section
+*/
+
+.carousel-control-next, .carousel-control-prev{
+    top: -66px;
+}
+.feedback_area{
+    width: 100%;
+    height: 100vh;
+    padding: 80px 0;
+}
+
+.box{
+    text-align: center;
+    border: 1px solid #ccc;
+    box-shadow: 0 5px 4px 0 rgba(0 , 0 , 0 , 3);
+    border-radius: 2px;
+    transform: 0.3s none;
+}
+.box:hover{
+    background: #16c9f6;
+    transition: 1s ease;
+}
+
+.box:hover p{
+    color: #fff;
+}
+/* .carousel-indicators li{
+    position: absolute;
+    right: 0;
+    bottom: -60px !important;
+}
+.carousel-indicators li{
+    background-color: #16c9f6 !important;
+} */
+
+.box a{
+    position: relative;
+}
+.box a img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+/* .box a:after{
+    content: "\f10d";
+    font-family:FontAwesome;
+    width: 40px;
+    height: 40px;
+    background: red;
+    /* color: white;
+    position: absolute;
+    top:120%;
+    left: 70%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+} */
+.box h1{
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+}
+.box h2{
+    font-size: 13px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.box p{
+    font-size: 15px;
+}
