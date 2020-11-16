@@ -475,6 +475,14 @@
         <div class="mt-5 text-center copyRight_area">
             <p>Copyright @2020 all rights reserved | This complited to make with loved by BD BRAIN STATION.</p>
         </div>
+
+        <!--Scrolltop-->
+        <!-- <div class="scrolltop_area float-right">
+            <i class="fas fa-arrow-up" onclick="topFunction()" id="myBtn"></i>
+        </div>  -->
+        <a href="#" class="to-top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
     </div>
 </footer>
 
@@ -486,5 +494,33 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 <script src="js/fontawesome.min.js"></script>
 <script src="js/all.min.js"></script>
+<!-- <script>
+    // $('.count').counterUp({
+    //     delay:10,
+    //     time:3000
+    // })
+
+    myButton = document.getElementById("#myBtn");
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction(){
+        if(document.body.scrollTop > 20){
+            myButton.style.display ="block";
+        }else{
+            myButton.style.display = "none";
+        }
+    }
+</script> -->
+
+<script>
+    const toTop=document.querySelector(".to-top");
+    window.addEventListener("scroll", () => {
+        if(window.pageYOffset > 100){
+            toTop.classList.add("active");
+        }else{
+            toTop.classList.remove("active");
+        }
+    })
+</script>
 </body>
 </html>
