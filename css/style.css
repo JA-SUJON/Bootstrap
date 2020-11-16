@@ -142,7 +142,7 @@ Offer Section
 .offer_area{
     background: #f7f7f9;
     padding: 50px 0;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 .offer_area .offer_title{
     margin-bottom: 50px;
@@ -165,7 +165,7 @@ Offer Section
 .offer_right_site{}
 .offer_right_site .offer_right_text h2{
     font-size: 1.2rem;
-    margin: 20px 0 15px 0;
+    margin: 0px 0 15px 0;
     font-weight: bold;
     line-height: 1.1;
     word-spacing: 4px;
@@ -194,3 +194,87 @@ Offer Section
 /*
 Pricing Section
 */
+.pricing_area{
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+    position: relative;
+}
+.pricing_area:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: linear-gradient(160deg, #16c9f6 55%, #fff 0%);
+}
+.pricing_area .money{
+    font-size: 35px;
+    line-height: 1;
+    color:#606060;
+}
+.pricing_area .card{
+    transition: 0.4s ease;
+}
+.pricing_title{
+    padding: 0 0 25px 0;
+}
+.pricing_area .card-header{
+    font-size: 1.6rem;
+    font-weight: bold;
+    background: #fff;
+    padding: 25px 9;
+}
+
+.pricing_area .card-body{
+    padding: 30px 0px;
+}
+.pricing_area .card-body li{
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #060101 !important;
+}
+.pricing_area .card-footer{
+    background: 30px 0;
+    padding: 30px 0;
+}
+
+.pricing_area .card-footer a{
+    border: 2px solid #50d1c0;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #50d1c0;
+    font-size: 1rem;
+    font-weight: bolder;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.pricing_area .card-footer a:hover{
+    color: #fff;
+    background: #50d1c0;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transition: 0.5s;
+    cursor: pointer;
+    font-weight: bold;
+}
+.card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+.card:hover .card-header, .card:hover .money{
+    color: #50d1c0;
+}
+
+.card-second{
+    transform: translateY(-20px);
+    /* box-shadow: 0 0 20px 0 rgba(0,0,0,0.3); */
+}
