@@ -1,0 +1,36 @@
+@media(max-width:768px){
+    .to-top{
+        right: 45px !important;
+    }
+    .to-top.active {
+        bottom: 15px !important;
+    }
+    .nav-item{
+        text-align: center;
+    }
+
+
+    .offer_right_site .offer_right_text p{
+        text-align: inherit;
+        padding-right: 5px;
+    }
+
+    .pricing_area{
+        height: auto !important;
+        margin-top: 50px;
+    }
+
+    .feedback_area{
+        height: auto !important;
+        margin-top: 50px;
+    }
+
+    .contactUs_area{
+        padding-top: 32px !important;
+    }
+
+    .card-second{
+        margin: 40px 0;
+        margin-bottom: 0;
+    }
+}
