@@ -431,3 +431,43 @@ Subscribe Section
     border-radius: 0 100px 100px 0;
     font-weight: 600;
 }
+
+
+/*
+Footer Section
+*/
+
+.footer_area{
+    width: 100%;
+    height: auto;
+    padding: 70px 0 20px 0;
+    background: #00abff;
+    position: relative;
+}
+.footer_area h3{
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 4);
+}
+.footer_area p{
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+.footer_area li a{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.copyRight_area p{
+    font-size: 0.9rem;
+}
